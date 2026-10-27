@@ -1,0 +1,31 @@
+{
+    "sample_input" : { 
+        "jsonrpc": "2.0",
+        "id": 3,
+        "method": "tools/call",
+        "params": {
+            "name": "add_note",
+            "arguments": {
+                "text": "Buy milk"
+            },
+            "_meta": {
+                "io.modelcontextprotocol/protocolVersion": "2026-07-28",
+                "io.modelcontextprotocol/clientCapabilities": {}
+            }
+        }
+    },
+    "sample_output" : {
+        "jsonrpc": "2.0",
+        "id": 3,
+        "result": {
+            "resultType": "complete",
+            "content": [
+                {
+                    "type": "text",
+                    "text": "Saved note #1: Buy milk"
+                }
+            ],
+            "isError": false
+        }
+    }
+}
