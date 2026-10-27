@@ -1,0 +1,4 @@
+mcp[cli]>=2.3,<3
+httpx>=0.28
+google-genai>=2.33   # optional: only needed for transcripts
+pytest>=8            # for the tests
